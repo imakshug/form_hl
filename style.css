@@ -1,0 +1,214 @@
+
+ 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  /* font-family: "Inter", sans-serif; */
+  /* font-family: "DomaineDisplayNarrow", Georgia, serif; */
+  /* font-family:  "Poppins", Arial, sans-serif; */
+  font-family: "Gilroy", sans-serif;
+  background: #f5f5f7;
+  overflow-x: hidden;
+}
+.contact-form-1{
+  display: flex;
+  justify-content: center;
+  background: #0D1282;
+  padding-bottom: 100px;
+}
+
+.contact-form-main-1{
+  display: flex;
+  justify-content: center;
+  height: 32.5rem;
+  background: #0D1282;
+
+}
+.contact-info-1{
+  margin-top: 45px;
+  margin-right: 80px;
+  /* padding: 48px; */
+}
+.contact-add-1{
+  height: 265px;
+  width:500px;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+}
+
+img{
+  margin-top: 100px;
+  height: 5rem;
+  width: 25rem;
+}
+.contact-add-1 h1{
+  font-size: 2rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+ .ri-phone-line p,
+ .ri-mail-open-line p,
+ .ri-map-pin-line p{
+  font-weight: 500;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  color: white;
+  margin-bottom: 10px;
+}
+
+p{
+  margin-bottom: 10px;
+}
+.formbold-main-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 48px;
+  padding-right: 50px;
+  padding-top: 48px;
+}
+
+.formbold-form-wrapper {
+  margin: 0 auto;
+  max-width: 550px;
+  width: 100%;
+  background: #0D1282;
+}
+
+.formbold-form-select {
+  width: 30rem;
+  padding: 12px 22px;
+  border-radius: 5px;
+  border: 1px solid #dde3ec;
+  font-family: "DomaineDisplayNarrow", Georgia, serif;
+  background: #0D1282;
+  font-size: 19px;
+  color: white;
+  outline: none;
+  resize: none;
+  margin-bottom: 22px;
+}
+
+.formbold-input-flex {
+  display: flex;
+  gap: 20px;
+  font-family: "DomaineDisplayNarrow", Georgia, serif;
+  margin-bottom: 22px;
+}
+.formbold-input-flex > div {
+  width: 50%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+.formbold-textarea {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.formbold-form-input {
+  width: 30rem;
+  padding-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #DDE3EC;
+  background: #0D1282;
+  font-weight: 500;
+  font-family: "DomaineDisplayNarrow", Georgia, serif;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 5px;
+  outline: none;
+  resize: none;
+}
+.formbold-form-input::placeholder {
+  color: #c4c2c2;
+}
+.formbold-form-input:focus {
+  border-color: #f0e7b7;
+}
+.formbold-form-label {
+  color: white;
+  font-weight: 600;
+  /* background: blue; */
+  font-size: 18px;
+  font-family: "DomaineDisplayNarrow", Georgia, serif;
+  line-height: 24px;
+  display: block;
+  margin-bottom: 18px;
+  margin-top: 15px;
+}
+.formbold-form-input:focus + .formbold-form-label {
+  color: #f7ecb2;
+}
+
+.formbold-input-file {
+  margin-top: 30px;
+}
+.formbold-input-file input[type="file"] {
+  position: absolute;
+  top: 6px;
+  left: 0;
+  z-index: -1;
+}
+.formbold-input-file .formbold-input-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.formbold-filename-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 22px;
+}
+.formbold-filename {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+  line-height: 24px;
+  color: #536387;
+}
+.formbold-filename svg {
+  cursor: pointer;
+}
+
+.formbold-btn {
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 12px 25px;
+  border: none;
+  font-weight: 500;
+  background-color: #FC4100;
+  color: white;
+  font-family: "DomaineDisplayNarrow", Georgia, serif;
+  cursor: pointer;
+  margin-top: 25px;
+}
+.formbold-btn:hover {
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  background-color: #03c00d;
+}
+
+@media (max-width: 575.98px){
+  .contact-form-1{
+    display: block;
+  }
+  .formbold-main-wrapper{
+    padding-left: 32px;
+    padding-right: 19px;
+  }
+  .contact-add-1 {
+    margin:10px ;
+    width: 400px;
+  }
+
+}
